@@ -5,5 +5,5 @@ function CalcolaFattoriale(){
 	for (var i = numero-1; i >= 1; i--) {
 		ris = ris*i;
 	}
-	document.getElementById("risultato").innerHTML = ris;
+	document.getElementById("risultato").innerHTML = numero +"! = " +ris;
 }
